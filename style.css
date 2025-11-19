@@ -108,6 +108,7 @@ padding: 35px; /*Espaçamento interno*/
 .produtos{
     height: 350px;
     width: 190px;
+   
 
 }
 
@@ -115,7 +116,8 @@ padding: 35px; /*Espaçamento interno*/
     font-weight: bold;
     font-size: 20px;
     color: #ffffff;
-    padding: 25px;
+    display: flex;
+    justify-content: center;
 
 
 }
@@ -124,7 +126,6 @@ padding: 35px; /*Espaçamento interno*/
     height: 10px;
     width: 10px;
     border-radius: 100%;
-
 
 }
 
@@ -157,8 +158,51 @@ padding: 35px; /*Espaçamento interno*/
 .caixa-cores{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    width: 100px;
+    justify-content: center;
+    gap: 10px;
 
 
 }
+
+.carousel{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+
+
+}
+
+.banner2{
+    background-image: url(./assets/x-box.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 1000px;
+    border-radius: 15px;
+    display: flex;
+    align-items: start; /**/
+    justify-content: end;
+
+    
+}
+.texto-banner2{
+    font-size: 25px;
+    color: #ffffff;
+
+
+}
+
+.btn-menu2{
+    width: 175px; /**/
+    height: 45px;/**/
+    border-radius: 35px;/*borda do botao*/
+    background-color: #333333;/*cor do botao*/
+    color: #ffffff;/**/
+    font-weight: bold;/*fonte do botao*/
+    border: none;/*remove a borda*/
+    margin: 25px;/*espacamento externo*/
+
+
+}
+
