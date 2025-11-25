@@ -174,7 +174,7 @@ padding: 35px; /*Espaçamento interno*/
 }
 
 .banner2{
-    background-image: url(./assets/x-box.png);
+    background-image: url("./assets/x-box.png");
     background-repeat: no-repeat;
     background-size: cover;
     height: 500px;
@@ -203,6 +203,52 @@ padding: 35px; /*Espaçamento interno*/
     border: none;/*remove a borda*/
     margin: 25px;/*espacamento externo*/
 
+
+}
+
+.mini-texto{
+    font-size: 25px;
+    color: #ffffff;
+    font-size: 20px;
+
+}
+
+.menu-2{
+    display: flex;
+    flex-direction: row;
+    gap: 50PX;
+    justify-content: center;
+    padding: 25px;
+    margin: 35px;
+
+
+}   
+
+.cor-letra{
+    color: gray;
+
+
+}
+
+.caixa-footer{
+    display: flex;
+    flex-direction: row;
+
+    gap: 80px;
+    width: 980px;
+}
+
+.caixa-texto2{
+    
+   
+    gap: 50px;
+    width: 1000px;
+
+}
+.texto-5{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 
 }
 
